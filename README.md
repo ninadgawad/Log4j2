@@ -12,4 +12,4 @@ when expanded, results in the loading and invocation of a remote Java class file
 - In releases >=2.10, this behavior can be mitigated by setting either the system property log4j2.formatMsgNoLookups or the environment variable LOG4J_FORMAT_MSG_NO_LOOKUPS to true
 - For releases >=2.7 and <=2.14.1, all PatternLayout patterns can be modified to specify the message converter as %m{nolookups} instead of just %m
 - For releases >=2.0-beta9 and <=2.10.0, the mitigation is to remove the JndiLookup class from the classpath: zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class
-- Upgrade to 2.15.0 or greater 
+- Upgrade to 2.16.0 or greater 
