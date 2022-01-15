@@ -21,6 +21,7 @@ Log4j 1.x is not impacted by this vulnerability.
 
 
 ### Issue: Log4j2 JNDI attack
+![Log4j2Shell](Log4j2Overview.PNG)
 
 
 
